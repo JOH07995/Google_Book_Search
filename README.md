@@ -13,15 +13,13 @@
 
 
 #### Appication Overview:
-![](image/workout_tracker.PNG)
+![](screenshot/googles_books.png)
 
 - Users are greeted with the Search Page, and then can start inputting their search by Book Title.
 
-![](image/cardio.PNG)
 
 - Users can view Books (which will take you to the a more detailed page). Users also have the ability to Save that Book ot their Collection.
 
-![](image/resistance.PNG)
 
 - Clicking on Collection will take you to your saved Books. Here you can see a little bit about your collection, and remove Books as needed.
 
