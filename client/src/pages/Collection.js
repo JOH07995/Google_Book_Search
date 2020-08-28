@@ -34,7 +34,7 @@ function Collection() {
             <Hero />
             <Row>
                 <Col size="md-12">
-                    <Card title="Collections" icon="fas fa-swatchbook">
+                    <Card title="Collection" icon="fas fa-swatchbook">
                         {books.length ? (
                             <List>
                                 {books.map((book) => (
@@ -53,7 +53,7 @@ function Collection() {
                             </List>
 
                         ) : (
-                                <h3>Empty Collection - that's sad.</h3>
+                                <h2>Empty Collection - that's sad.</h2>
                             )}
                     </Card>
                 </Col>

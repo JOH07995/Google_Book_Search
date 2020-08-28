@@ -97,7 +97,7 @@ function Home() {
                                     ))}
                                 </List>
                             ) : (
-                                    <h3 id="infox">Please enter your search in the input above.</h3>
+                                    <h2 id="infox">Please enter your search in the input above.</h2>
                                 )}
                         </Row>
                     </Card>
