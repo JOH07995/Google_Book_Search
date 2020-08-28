@@ -34,8 +34,8 @@ class Nav extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
                 <Link className="navbar-brand" to="/">
-                    React Google Books
-        </Link>
+                    Google Books React
+                </Link>
                 <button
                     onClick={this.toggleNav}
                     className="navbar-toggler"
@@ -47,7 +47,7 @@ class Nav extends Component {
                 >
                     <span className="navbar-toggler-icon" />
                 </button>
-                <div className={`${this.state.open ? "" : "collapse "}navbar-collapse`} id="navbarNav">
+                <div className={'${this.state.open ? "" : "collapse "}navbar-collapse'} id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <Link

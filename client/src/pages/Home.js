@@ -13,7 +13,7 @@ function Home() {
     const [books, setBooks] = useState([]);
     const [query, setQuery] = useState('');
 
-    // Handles updating component state when user types into input field
+    // Handles updating component state when user types into input
     function handleInputChange(event) {
         setQuery(event.target.value);
     }

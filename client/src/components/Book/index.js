@@ -10,7 +10,7 @@ function Book(props) {
         <ListItem>
             <Row>
                 <Col size="md-2" key={props.id}>
-                    <p className="font-bold">Written by {props.authors ? props.authors.join(`, `) : "Unknown author"}</p>
+                    <p className="font-bold">Written by {props.authors ? props.authors.join(', ') : "Unknown author"}</p>
                 </Col>
                 <Col size="md-10">
                     <h4 className="font-bold">{props.title}</h4>

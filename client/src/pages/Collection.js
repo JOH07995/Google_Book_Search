@@ -48,12 +48,7 @@ function Collection() {
                                         onSubmit={() => deleteBook(book._id)}
                                         submitLabel="Delete"
                                         submitBtnClassName="btn btn-danger"
-
-
-
                                     ></Book>
-
-
                                 ))}
                             </List>
 
