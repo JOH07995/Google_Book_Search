@@ -20,7 +20,7 @@ export function Button(props) {
                 marginBottom: 50,
                 marginTop: 30
             }}
-            className="btn btn-info"
+            className="btn btn-dark"
         >
             {props.children}
         </button>

@@ -92,12 +92,12 @@ function Home() {
                                             link={book.volumeInfo.infoLink}
                                             onSubmit={() => saveBook(book.id)}
                                             submitLabel="Save"
-                                            submitBtnClassName="btn btn-info"
+                                            submitBtnClassName="btn btn-dark"
                                         ></Book>
                                     ))}
                                 </List>
                             ) : (
-                                    <h2 id="infox">Please enter your search in the input above.</h2>
+                                    <h2 id="infox" >Please enter your search in the input above.</h2>
                                 )}
                         </Row>
                     </Card>
