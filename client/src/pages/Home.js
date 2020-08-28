@@ -67,7 +67,7 @@ function Home() {
 
                                         onChange={handleInputChange}
                                         name="title"
-                                        placeholder="Search for Book Title"
+                                        placeholder="Search by Book Title"
 
                                     />
 
