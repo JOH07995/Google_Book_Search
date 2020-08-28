@@ -1,0 +1,21 @@
+.btn-container {
+    float: left;
+}
+
+.btn {
+    font-size: larger;
+}
+
+.font-italic, p {
+    text-align: left;
+}
+
+#space {
+    margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+    .btn-container {
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,11 @@
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-item {
+    font-size: 18px
+}

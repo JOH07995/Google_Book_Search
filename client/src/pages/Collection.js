@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import API from '../utils/API';
-import Hero from '../componets/Hero';
-import { Col, Container, Row } from '../componets/Grid';
-import { List } from '../componets/List';
-import Book from '../componets/Book';
-import Card from '../componets/Card';
+import Hero from '../components/Hero';
+import { Col, Container, Row } from '../components/Grid';
+import { List } from '../components/List';
+import Book from '../components/Book';
+import Card from '../components/Card';
 
 function Collection() {
     const [books, setBooks] = useState([]);
 
 
-    // Load all books and store them with setBooks
+    // Loads all books and stores with setBooks
     useEffect(() => {
         loadSavedBooks();
     }, []);
@@ -22,7 +22,7 @@ function Collection() {
             .catch((err) => console.error(err));
     }
 
-    // Deletes a book from the database with a given id, then reloads books from the db
+    // Deletes book from database with given id, then reloads books from db
     function deleteBook(id) {
         API.deleteBook(id)
             .then(() => loadSavedBooks())
@@ -58,7 +58,7 @@ function Collection() {
                             </List>
 
                         ) : (
-                                <h3>Empty Collection</h3>
+                                <h3>Empty Collection - that's sad.</h3>
                             )}
                     </Card>
                 </Col>
